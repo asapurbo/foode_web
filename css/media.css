@@ -1,0 +1,586 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/* Item part css Start */
+.item_text_with_img {
+	padding-left: 0;
+	padding-right: 0;
+}
+/* Item part css End */
+
+/* Service part CSS Start  */
+.service_item_wrap {
+	padding-left: 0px; 
+	padding-right: 0px; 
+}
+.service_rowone {
+	width: 45%;
+}
+.service_rowsec {
+	width: 45%;
+}
+/* Service part CSS End  */
+
+/* Contact part CSS Start  */
+.contact_img_with_form {
+    padding-left: 0; 
+	padding-right: 0; 
+}
+.contact_img_wrap {
+	width: 48%;
+	height: 508px;
+}
+.cont_text_with_form {
+	width: 45%;
+}
+.cont_im {
+	width: 45%;
+	height: 508px;
+}
+.from_wrap {
+	width: 100%;
+}
+.name_with_date {
+	width: 48%;
+}
+.email_with_number{
+    width: 48%;
+}
+/* Contact part CSS End  */
+
+/* Footer part CSS Start  */
+.footer_wrap {
+	padding-left: 0;
+	padding-right: 0;
+}
+.footer_fs_text {
+	width: 35%;
+}
+.footer_sec_text {
+	width: 25;
+}
+.footer_thi_text{
+    width: 25%;
+}
+/* Footer part CSS Start  */
+ }
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* Header part css Start */
+.container{
+    width: 95% !important;
+    overflow: hidden;
+}
+.header_text_with_button {
+    padding-top: 43px;
+    padding-bottom: 70px;
+}
+.navbar-toggler {
+    border: none;
+    
+}
+.navbar-nav {
+    background: #000000aa;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.nav-item:hover {
+    background: #000000c9;
+    transition: all .5s ease;
+    border-radius: 10px;
+} 
+.nav-item:focus {
+    background: #000000c9;
+    border-radius: 10px;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.header_text h1 {
+	font-size: 66px;
+	line-height: 68px;
+}
+.header_button {
+    display: block;
+    width: 98%;
+}
+.header_first_but{
+    margin-bottom: 17px;
+}
+
+/* Header part css End */
+
+
+/* Item part css Start */
+.item_text_with_img {
+    padding-left: 0; 
+    padding-right: 0; 
+    display: block; 
+}
+.item_text {
+   width: 100%;
+   text-align: center;
+}
+.item_img {
+   width: 90%; 
+   margin: 0 auto;
+}
+.item_img img{
+   width: 100%; 
+}
+/* Item part css End */
+
+
+/* Banner part CSS Start  */
+.banner_item {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    padding-top: 51px;
+    padding-bottom: 52px;
+}
+/* Banner part CSS Start  */
+
+
+/* Service part CSS Start  */
+.service_item_wrap {
+	padding-left: 0px; 
+	padding-right: 0px; 
+}
+.service_rowone {
+	width: 45%;
+}
+.service_rowsec {
+	width: 45%;
+}
+/* Service part CSS End  */
+
+
+/* Project part CSS Start  */
+.project_item {
+    padding-top: 50px;
+    padding-bottom: 64px;
+    width: 100%;
+}
+/* Project part CSS End  */
+
+
+/* Contact part CSS Start  */
+.contact_img_with_form {
+    padding-left: 0; 
+	padding-right: 0; 
+}
+.contact_img_wrap {
+	width: 48%;
+	height: 508px;
+}
+.cont_text_with_form {
+	width: 45%;
+}
+.cont_im {
+	width: 45%;
+	height: 508px;
+}
+.from_wrap {
+	width: 100%;
+}
+.name_with_date {
+	width: 48%;
+}
+.email_with_number{
+    width: 48%;
+}
+/* Contact part CSS End  */
+
+/* Footer part CSS Start  */
+.footer_wrap {
+	padding-left: 0;
+	padding-right: 0;
+}
+.footer_fs_text {
+	width: 35%;
+}
+.footer_sec_text {
+	width: 25;
+}
+.footer_thi_text{
+    width: 25%;
+}
+/* Footer part CSS Start  */
+ }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/* Header part css Start */
+.container{
+    width: 95% !important;
+    overflow: hidden;
+}
+.header_text_with_button {
+    padding-top: 43px;
+    padding-bottom: 70px;
+}
+.navbar-toggler {
+    border: none;
+    
+}
+.navbar-nav {
+    background: #000000aa;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.nav-item:hover {
+    background: #000000c9;
+    transition: all .5s ease;
+    border-radius: 10px;
+} 
+.nav-item:focus {
+    background: #000000c9;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+	width: 95px;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.header_text h1 {
+	font-size: 66px;
+	line-height: 68px;
+}
+.header_button {
+    display: block;
+    width: 98%;
+}
+.header_first_but{
+    margin-bottom: 17px;
+}
+.header_first_but a {
+    padding: 17px 40px;
+}
+.header_second_but a {
+    padding: 17px 40px;
+}
+
+/* Header part css End */
+
+/* Item part css Start */
+.item_text_with_img {
+     padding-left: 0; 
+     padding-right: 0; 
+     display: block; 
+}
+.item_text {
+    width: 100%;
+    text-align: center;
+}
+.item_img {
+    width: 90%; 
+    margin: 0 auto;
+}
+.item_img img{
+    width: 100%; 
+}
+/* Item part css End */
+
+/* Banner part CSS Start  */
+.banner_item {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    padding-top: 51px;
+    padding-bottom: 52px;
+}
+.banner_ite_text_with_img_wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.banner_head_text p {
+   
+    padding-bottom: 35px;
+}
+/* Banner part CSS Start  */
+
+/* Service part CSS Start  */
+.service_item_wrap {
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.service_rowone {
+    width: 100%;
+}
+.service_rowsec {
+    width: 100%;
+}
+
+/* Service part CSS End  */
+
+/* Project part CSS Start  */
+.project_item {
+    padding-top: 50px;
+    padding-bottom: 64px;
+    width: 100%;
+}
+.project_head_text p {
+    font-size: 20px;
+    line-height: 32px;
+}
+.project_head_text {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* Project part CSS End  */
+
+/* Contact part CSS Start  */
+.contact_img_with_form {
+    padding-left: 0px; 
+    padding-right: 0px; 
+    display: block; 
+}
+.cont_text_with_form {
+    width: 100%;
+}
+.cont_im {
+    width: 48%;
+    height: 100%;
+}
+.contact_img_wrap {
+    width: 100%;
+}
+.from_wrap {
+    width: 100%;
+}
+.name_with_date {
+    width: 50%;
+}
+/* Contact part CSS End  */
+
+/* Footer Part CSS Start  */
+.footer_wrap {
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.footer_fs_text {
+    width: 100%;
+    margin-top: 50px;
+}
+.footer_sec_text {
+    width: 100%;
+    margin-top: 50px;
+}
+.footer_thi_text {
+    width: 100%;
+    margin-top: 50px;
+}
+.sec_text_img {
+    margin-top: 22px;
+}
+.thi_icon {
+    margin-top: 28px;
+}
+/* Footer Part CSS End  */
+ }
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* Header part css Start */
+    .container{
+        width: 95%;
+        overflow: hidden;
+    }
+    .header_text_with_button {
+        padding-top: 43px;
+        padding-bottom: 70px;
+    }
+    .navbar-toggler {
+        border: none;
+        
+    }
+    .navbar-nav {
+        background: #000000aa;
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .nav-item:hover {
+        background: #000000c9;
+        transition: all .5s ease;
+        border-radius: 10px;
+    } 
+    .nav-item:focus {
+        background: #000000c9;
+        border-radius: 10px;
+    }
+    
+    .navbar-brand {
+        width: 63px;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    .header_text h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .header_button {
+        display: block;
+        width: 98%;
+    }
+    .header_first_but{
+        margin-bottom: 17px;
+    }
+    .header_first_but a {
+        padding: 17px 40px;
+    }
+    .header_second_but a {
+        padding: 17px 40px;
+    }
+
+    /* Header part css End */
+
+    /* Item part css Start */
+    .item_text_with_img {
+         padding-left: 0; 
+         padding-right: 0; 
+         display: block; 
+    }
+    .item_text {
+        width: 100%;
+        text-align: center;
+    }
+    .item_img {
+        width: 90%; 
+        margin: 0 auto;
+    }
+    .item_img img{
+        width: 100%; 
+    }
+    /* Item part css End */
+
+    /* Banner part CSS Start  */
+    .banner_item {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        padding-top: 51px;
+        padding-bottom: 52px;
+    }
+    .banner_ite_text_with_img_wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner_head_text p {
+       
+        padding-bottom: 35px;
+    }
+    /* Banner part CSS Start  */
+
+    /* Service part CSS Start  */
+    .service_item_wrap {
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .service_rowone {
+        width: 100%;
+    }
+    .service_rowsec {
+        width: 100%;
+    }
+    
+    /* Service part CSS End  */
+
+    /* Project part CSS Start  */
+    .project_item {
+        padding-top: 50px;
+        padding-bottom: 64px;
+        width: 100%;
+    }
+    .project_head_text p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .project_head_text {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    /* Project part CSS End  */
+
+    /* Contact part CSS Start  */
+    .contact_img_with_form {
+        padding-left: 0px; 
+        padding-right: 0px; 
+        display: block; 
+    }
+    .cont_text_with_form {
+        width: 100%;
+    }
+    .cont_im {
+        width: 48%;
+        height: 100%;
+    }
+    .contact_img_wrap {
+        width: 100%;
+    }
+    .from_wrap {
+        width: 100%;
+    }
+    .name_with_date {
+        width: 48%;
+    }
+    .email_with_number{
+        width: 48%;
+    }
+    /* Contact part CSS End  */
+
+    /* Footer Part CSS Start  */
+    .footer_wrap {
+        display: block; 
+        padding-left: 0; 
+        padding-right: 0; 
+    }
+    .footer_fs_text {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .footer_sec_text {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .footer_thi_text {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .sec_text_img {
+        margin-top: 22px;
+    }
+    .thi_icon {
+        margin-top: 28px;
+    }
+    /* Footer Part CSS End  */
+ }
+
+
+
+
+
+
+
+
+
+

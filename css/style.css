@@ -1,0 +1,498 @@
+/* ALL Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+:root {
+  --x: fixed;
+}
+/* ALL Common CSS End */
+
+/* Header Part CSS Start */
+#header_part {
+  background: url(../images/restaurant.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: var(--x);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  font-family: "Gentium Book Plus", serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 21px;
+  font-weight: 400;
+}
+/* Header Secend part CSS Start */
+.header_text_with_button {
+  padding-top: 129px;
+  padding-bottom: 142px;
+  text-align: center;
+}
+.header_text h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 90px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 110px;
+  padding-bottom: 34px;
+}
+.header_button {
+  display: flex;
+  margin: 0 auto;
+  width: 490px;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+.header_first_but a {
+  display: inline-block;
+  padding: 22px 50px;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #111818;
+}
+.header_second_but a {
+  display: inline-block;
+  padding: 22px 50px;
+  background: rgba(255, 255, 255, 0.3);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #eae5cd;
+}
+/* Header Secend part CSS End */
+/* Header Part CSS End */
+
+/* Item part CSS Start */
+#item_part {
+  padding-top: 75px;
+  padding-bottom: 88px;
+  background: url(../images/item_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.item_text_with_img {
+  padding-left: 110px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.item_text {
+  width: 430px;
+  text-align: center;
+}
+.item_text h3 {
+  color: #cc9900;
+  font-family: "Yeseva One", cursive;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 36px;
+  padding-top: 34px;
+}
+.item_text img {
+  padding-bottom: 36px;
+}
+.item_text p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 50px;
+}
+.item_img {
+  width: 552px;
+}
+.item_img img {
+  width: 552px;
+}
+/* Item part CSS End *
+
+/* Banner Part CSS Start */
+#banner_part {
+  padding: 100px 0;
+  background: url(../images/card7.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner_item_wrap {
+  overflow: auto;
+}
+.banner_item {
+  padding-top: 84px;
+  padding-bottom: 78px;
+  width: 570px;
+  background: rgba(0, 0, 0, 0.67);
+  float: right;
+  margin-right: 40px;
+}
+.banner_ite_text_with_img_wrap {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+.banner_head_text {
+  text-align: center;
+}
+.banner_head_text h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 36px;
+  color: #fff;
+  padding-bottom: 16px;
+}
+.banner_head_text p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+  padding-top: 30px;
+  padding-bottom: 72px;
+}
+
+.banner_img_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.banner_img_wrap img {
+  width: 100%;
+}
+/* Banner Part CSS End */
+
+/* Service Part CSS Start */
+#service_part {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.service_item_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.service_rowone {
+  width: 430px;
+}
+.service_rowsec {
+  width: 430px;
+}
+.service_head_text {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.service_head_text h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 36px;
+  color: #cc9900;
+  padding-bottom: 16px;
+}
+.service_text_with_price {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c89f2d;
+  padding-bottom: 13px;
+}
+.ser_text h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 21px;
+  color: #cc9900;
+  padding-bottom: 16px;
+}
+.ser_price h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 21px;
+  color: #cc9900;
+  padding-bottom: 16px;
+}
+.ser_butt_text {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.ser_butt_text p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #4c4c4c;
+}
+.mmt {
+  margin-top: 72px;
+}
+/* Service Part CSS End */
+
+/* Project Part CSS Start */
+#project_part {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(../images/card12.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.project_item {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  width: 770px;
+  background: #000000e1;
+  margin: 0 auto;
+}
+.project_head_text {
+  text-align: center;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.project_head_text h3 {
+  font-family: "Yeseva One", cursive;
+  font-style: 36px;
+  color: #fff;
+  padding-bottom: 22px;
+}
+.project_head_text p {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  color: #dde0df;
+  padding-bottom: 45px;
+}
+.project_head_text h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #dde0df;
+}
+/* Project Part CSS End */
+
+/* Contact Part CSS Start */
+#contact_part {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(../images/card16.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact_img_with_form {
+  padding-left: 40px;
+  padding-right: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact_img_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+  height: 508px;
+}
+.cont_im {
+  width: 270px;
+  height: 508px;
+}
+.cont_im img {
+  width: 100%;
+}
+.cont_text_with_form {
+  width: 430px;
+}
+.form_head_text {
+  text-align: center;
+}
+.form_head_text h3 {
+  font-family: "Yeseva One", cursive;
+  color: #cc9900;
+  font-size: 36px;
+  padding-bottom: 14px;
+}
+.form_head_text p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-top: 33px;
+}
+.sec_p {
+  padding-top: 20px !important;
+  padding-bottom: 47px !important;
+}
+.from_wrap {
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+.name_with_date {
+  width: 200px;
+}
+.u_name {
+  margin-bottom: 29px;
+}
+
+.u_name h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c9a131;
+  padding-bottom: 10px;
+}
+input[type="text"]:focus {
+  border: 1px solid #c89f2d;
+}
+.u_name input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #7c7c7c;
+  border: 1px solid #c8c6c6;
+  background: #f4f5f5;
+}
+.f_date h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c9a131;
+  padding-bottom: 10px;
+}
+.f_date input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #7c7c7c;
+  border: 1px solid #c8c6c6;
+  background: #f4f5f5;
+}
+.f_email h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c9a131;
+  padding-bottom: 10px;
+}
+.f_email {
+  margin-bottom: 29px;
+}
+.f_email input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #7c7c7c;
+  border: 1px solid #c8c6c6;
+  background: #f4f5f5;
+}
+.f_number h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c9a131;
+  padding-bottom: 10px;
+}
+.f_number select {
+  width: 100%;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #7c7c7c;
+  border: 1px solid #c8c6c6;
+  background: #f4f5f5;
+}
+.submit_but {
+  text-align: center;
+  margin-top: 33px;
+}
+.submit_but button[type="submit"] {
+  padding: 10px 60px;
+  background: #c9a131;
+  border: none;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+/* Contact Part CSS End */
+
+/* Footer Part CSS Start */
+#footer_part {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background: #191919;
+}
+.footer_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 55px;
+  padding-right: 125px;
+}
+.footer_fs_text {
+  width: 345px;
+  text-align: center;
+}
+.footer_fs_text h3,
+.footer_sec_text h3,
+.footer_thi_text h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 21px;
+  padding-bottom: 20px;
+  color: #fefefe;
+}
+.footer_fs_text p,
+.footer_sec_text p,
+.footer_thi_text p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 22px;
+}
+.footer_sec_text {
+  width: 198px;
+  text-align: center;
+}
+.footer_sec_text span {
+  font-weight: 700;
+}
+.ptt {
+  padding-top: 11px !important;
+}
+.sec_text_img {
+  margin-top: 55px;
+}
+.footer_thi_text {
+  width: 205px;
+  text-align: center;
+}
+.thi_icon {
+  text-align: center;
+  margin-top: 57px;
+}
+.thi_icon a {
+  display: inline-block;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+/* Footer Part CSS End */
